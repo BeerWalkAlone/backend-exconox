@@ -8,6 +8,7 @@
     ],
     "routes": [
       { "src": "/image/:imageName", "dest": "/image/:imageName" },
+      { "src": "/uploadProfileImage", "dest": "/image/:uploadProfileImage" },
       { "src": "/(.*)", "dest": "/index.js" }
     ]
   }
