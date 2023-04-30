@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://font-end-project-exconox.vercel.app',
     credentials: true
 }))
 
